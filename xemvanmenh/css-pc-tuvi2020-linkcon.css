@@ -1,0 +1,103 @@
+.content_body .content_mucluc .tbale_mucluc .menu_text_2 .content_link_text{
+	display: block;
+}
+.tag_a_den{
+	color: black;
+	text-decoration: none;
+}
+.tag_a_den:hover{
+	color: black;
+	text-decoration: none;
+}
+.content_body .content_video{
+	margin-top: 20px;
+}
+.content_body .content_video .title_video{
+	text-align: center;
+	font-weight: bold;
+}
+.content_body .content_video .img_text{
+	text-align: center;
+	margin:10px;
+}
+.content_body .content_video .img_text .img_ngua{
+	margin-bottom: 10px;
+}
+.content_body .content_video .video_cover{
+	text-align: center;
+}
+.content_body .content_video .video_cover .video_tuvi{
+	width: 400px;
+	height: 261px;
+}
+
+
+
+.content_body .text_nam{
+   padding: 10px;
+}
+.content_body .text_nam .danh_muc{
+	font-weight: bold;
+}
+.content_body .text_nam .sdt_hop_tuoi{
+	margin: 20px 0 20px 0;
+}
+.content_body .text_nam .sdt_hop_tuoi .text_ketluan:before{
+   content: "";
+   display: inline-block;
+   background: url(image/bouble_muiten.png);
+   width: 19px;
+   height: 18px;
+}
+.content_body .text_nam .thut_dong{
+	text-indent: 35px;
+}
+
+
+/*..........HAI COT......*/
+.content_body .content_haicot{
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+}
+.content_body .content_haicot .haicot{
+	width: 300px;
+	margin-right: 55px;
+}
+.content_body .content_haicot .haicot:nth-of-type(2){
+	margin-right: 0px;
+}
+.content_body .content_haicot .haicot .title_haicot{
+	height: 30px;
+	line-height: 30px;
+	background: url(image/hoavan_lan2.1.png) no-repeat top 3px left 3px,
+	            url(image/hoavan_lan2.2.png) no-repeat top 3px right 3px;
+	background-color: #7f3333;
+	text-align: center;
+	color: #fceb9c;
+	font-weight: bold;
+}
+.content_body .content_haicot .haicot .body_bv{
+	background: url(image/bg-border.png);
+	padding: 13px;
+	background-size: 100% 100%;
+	width: 300px;
+	height: 238px;
+}
+.content_body .content_haicot .haicot .body_bv .link_haicot:before{
+    content: "";
+    display: inline-block;
+    background: url(image/muiten_nau.png);
+    width: 7px;
+    height: 12px;
+    margin-right: 5px;
+}
+.content_body .content_haicot .haicot .body_bv .link_haicot_2:before{
+    content: "";
+    display: inline-block;
+    background: url(image/icon_amduong.png);
+    width: 17px;
+    height: 16px;
+    margin-right: 5px;
+    margin-bottom: -3px;
+}
